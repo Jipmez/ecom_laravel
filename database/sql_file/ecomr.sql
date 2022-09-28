@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 28, 2022 at 01:31 PM
+-- Generation Time: Sep 28, 2022 at 02:10 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.1
 
@@ -188,7 +188,7 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `slug`, `details`, `price`, `image`, `images`, `featured`, `quantity`, `category_id`, `description`, `created_at`, `updated_at`) VALUES
-(1, 'laptop0', 'laptop-0', '15 inches 1TB SSD 16 GB', 8199, 'products/dummy/image0.jpg', '[\"products/dummy/image0.jpg\", \"products/dummy/image0.jpg\", \"products/dummy/image0.jpg\"]', 0, 10, 1, 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, nisi. Exercitationem, explicabo obcaecati dicta libero inventore soluta ducimus, necessitatibus quaerat magnam sapiente mollitia eum beatae quidem et perferendis quis similique.', '2022-09-18 04:23:48', '2022-09-26 14:32:30'),
+(1, 'laptop0', 'laptop-0', '15 inches 1TB SSD 16 GB', 8199, 'products/dummy/image0.jpg', '[\"products/dummy/image0.jpg\", \"products/dummy/image0.jpg\", \"products/dummy/image0.jpg\"]', 0, 10, 1, '<p>Simple. suyiudgdfgfzzfsfsd</p>', '2022-09-18 04:23:48', '2022-09-28 11:02:42'),
 (2, 'laptop1', 'laptop-1', '15 inches 1TB SSD 16 GB RAM', 8972, 'products/dummy/image0.jpg', '[\"products/dummy/image0.jpg\", \"products/dummy/image0.jpg\", \"products/dummy/image0.jpg\"]', 0, 10, 1, 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, nisi. Exercitationem, explicabo obcaecati dicta libero inventore soluta ducimus, necessitatibus quaerat magnam sapiente mollitia eum beatae quidem et perferendis quis similique.', '2022-09-18 04:23:48', '2022-09-18 04:23:48'),
 (3, 'laptop2', 'laptop-2', '15 inches 1TB SSD 16 GB RAM', 2906, 'products/dummy/image0.jpg', '[\"products/dummy/image0.jpg\", \"products/dummy/image0.jpg\", \"products/dummy/image0.jpg\"]', 1, 10, 1, 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, nisi. Exercitationem, explicabo obcaecati dicta libero inventore soluta ducimus, necessitatibus quaerat magnam sapiente mollitia eum beatae quidem et perferendis quis similique.', '2022-09-18 04:23:48', '2022-09-18 04:23:48'),
 (4, 'laptop3', 'laptop-3', '15 inches 1TB SSD 16 GB RAM', 5242, 'products/dummy/image0.jpg', '[\"products/dummy/image0.jpg\", \"products/dummy/image0.jpg\", \"products/dummy/image0.jpg\"]', 0, 10, 1, 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, nisi. Exercitationem, explicabo obcaecati dicta libero inventore soluta ducimus, necessitatibus quaerat magnam sapiente mollitia eum beatae quidem et perferendis quis similique.', '2022-09-18 04:23:48', '2022-09-18 04:23:48'),
@@ -308,7 +308,8 @@ INSERT INTO `products` (`id`, `name`, `slug`, `details`, `price`, `image`, `imag
 (117, 'Camera16', 'camera-16', '15 inches 1TB SSD 16 GB RAM', 1229, 'products/dummy/image5.jpg', '[\"products/dummy/image5.jpg\", \"products/dummy/image5.jpg\", \"products/dummy/image5.jpg\"]', 1, 10, 6, 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, nisi. Exercitationem, explicabo obcaecati dicta libero inventore soluta ducimus, necessitatibus quaerat magnam sapiente mollitia eum beatae quidem et perferendis quis similique.', '2022-09-18 04:23:48', '2022-09-18 04:23:48'),
 (118, 'Camera17', 'camera-17', '15 inches 1TB SSD 16 GB RAM', 5779, 'products/dummy/image5.jpg', '[\"products/dummy/image5.jpg\", \"products/dummy/image5.jpg\", \"products/dummy/image5.jpg\"]', 0, 10, 6, 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, nisi. Exercitationem, explicabo obcaecati dicta libero inventore soluta ducimus, necessitatibus quaerat magnam sapiente mollitia eum beatae quidem et perferendis quis similique.', '2022-09-18 04:23:48', '2022-09-18 04:23:48'),
 (119, 'Camera18', 'camera-18', '15 inches 1TB SSD 16 GB RAM', 8804, 'products/dummy/image5.jpg', '[\"products/dummy/image5.jpg\", \"products/dummy/image5.jpg\", \"products/dummy/image5.jpg\"]', 0, 10, 6, 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, nisi. Exercitationem, explicabo obcaecati dicta libero inventore soluta ducimus, necessitatibus quaerat magnam sapiente mollitia eum beatae quidem et perferendis quis similique.', '2022-09-18 04:23:48', '2022-09-18 04:23:48'),
-(120, 'Camera19', 'camera-19', '15 inches 1TB SSD 16 GB RAM', 4743, 'products/dummy/image5.jpg', '[\"products/dummy/image5.jpg\", \"products/dummy/image5.jpg\", \"products/dummy/image5.jpg\"]', 1, 10, 6, 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, nisi. Exercitationem, explicabo obcaecati dicta libero inventore soluta ducimus, necessitatibus quaerat magnam sapiente mollitia eum beatae quidem et perferendis quis similique.', '2022-09-18 04:23:48', '2022-09-18 04:23:48');
+(120, 'Camera19', 'camera-19', '15 inches 1TB SSD 16 GB RAM', 4743, 'products/dummy/image5.jpg', '[\"products/dummy/image5.jpg\", \"products/dummy/image5.jpg\", \"products/dummy/image5.jpg\"]', 1, 10, 6, 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, nisi. Exercitationem, explicabo obcaecati dicta libero inventore soluta ducimus, necessitatibus quaerat magnam sapiente mollitia eum beatae quidem et perferendis quis similique.', '2022-09-18 04:23:48', '2022-09-18 04:23:48'),
+(128, 'Core 2', 'cameras-5194', 'Standard Operation', 1232, 'products/dummy/1664366994.png', NULL, 0, 10, 6, '<p>More of the same class</p>', '2022-09-28 11:09:54', '2022-09-28 11:09:54');
 
 -- --------------------------------------------------------
 
@@ -448,7 +449,8 @@ INSERT INTO `product_tag` (`id`, `product_id`, `tag_id`, `created_at`, `updated_
 (117, 61, 3, '2022-09-18 04:23:48', '2022-09-18 04:23:48'),
 (118, 58, 2, '2022-09-18 04:23:48', '2022-09-18 04:23:48'),
 (119, 114, 2, '2022-09-18 04:23:48', '2022-09-18 04:23:48'),
-(120, 108, 4, '2022-09-18 04:23:48', '2022-09-18 04:23:48');
+(120, 108, 4, '2022-09-18 04:23:48', '2022-09-18 04:23:48'),
+(126, 128, 2, '2022-09-28 11:09:54', '2022-09-28 11:09:54');
 
 -- --------------------------------------------------------
 
@@ -647,13 +649,13 @@ ALTER TABLE `order_product`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=128;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=129;
 
 --
 -- AUTO_INCREMENT for table `product_tag`
 --
 ALTER TABLE `product_tag`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=126;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=127;
 
 --
 -- AUTO_INCREMENT for table `roles`

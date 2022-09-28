@@ -6,7 +6,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h4>Write Your Post</h4>
+                            <h4>Create Your Product</h4>
                         </div>
                         <div class="card-body">
                             <form action="{{ route('shop.create') }}" method="post" enctype="multipart/form-data">
@@ -83,5 +83,15 @@
             height: 300,
             filebrowserUploadUrl: "/user/dashboard/upload"
         });
+
+        function close() {
+            document.getElementById("alert").classList.add("esconder");
+        }
+        document.getElementById("close").onclick = function() {
+            close();
+        };
+        setTimeout(() => {
+            close()
+        }, 3000);
     </script>
 @endsection

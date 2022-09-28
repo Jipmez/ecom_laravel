@@ -130,7 +130,6 @@
             <!-- Main Content -->
             <div class="main-content">
                 @yield('content')
-
                 <div class="settingSidebar">
                     <a href="javascript:void(0)" class="settingPanelToggle"> <i class="fa fa-spin fa-cog"></i>
                     </a>

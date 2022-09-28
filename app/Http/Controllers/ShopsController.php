@@ -68,7 +68,7 @@ class ShopsController extends Controller
             'image' => 'products/dummy' . "/" . $imageName,
             'featured' => 0,
             'category_id' => $cat->id,
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, veniam?', //request()->content,
+            'description' => request()->content,
         ]);
 
         $tag = ProductTag::create([
@@ -110,6 +110,7 @@ class ShopsController extends Controller
         $data->price = request()->price;
         $data->featured = 0;
         $data->details = request()->details;
+        $data->description = request()->content;
         $data->save();
         return redirect()->route('edit.index', $id)->with('success', 'Edited');
     }

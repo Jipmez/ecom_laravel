@@ -94,5 +94,15 @@
             height: 300,
             filebrowserUploadUrl: "/user/dashboard/upload"
         });
+
+        function close() {
+            document.getElementById("alert").classList.add("esconder");
+        }
+        document.getElementById("close").onclick = function() {
+            close();
+        };
+        setTimeout(() => {
+            close()
+        }, 3000);
     </script>
 @endsection

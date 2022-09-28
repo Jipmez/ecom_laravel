@@ -22,5 +22,8 @@
         document.getElementById("close").onclick = function() {
             close();
         };
+        setTimeout(() => {
+            close()
+        }, 5000);
     </script>
 @endsection
